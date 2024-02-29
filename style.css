@@ -1,0 +1,20 @@
+/*element selector */
+bodi {
+    background-color: #0c2d57;
+    font-family: calibri;
+}
+
+/* class selector */
+.text-primary {
+    color:  #ffd0ec;
+}
+.col {
+    width: 25%;
+    float: left;
+}
+.img-responsive {
+    border-radius: 300px;
+    width: 100%;
+}
+
+
