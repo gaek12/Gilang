@@ -6,7 +6,7 @@ bodi {
 
 /* class selector */
 .text-primary {
-    color:  #ffd0ec;
+    color:  #831ef7;
 }
 .col {
     width: 25%;
@@ -16,5 +16,29 @@ bodi {
     border-radius: 300px;
     width: 100%;
 }
+
+@media screen and (min-width: 600px){
+    body {
+        background-color: yellow;
+    }
+
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+}
+
+/* desktop : layout yang ditampilkan 4 kolom */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+
+    .col{
+        width: 25%;
+        float: left;
+    }
+}
+
 
 
